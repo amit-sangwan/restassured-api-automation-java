@@ -1,4 +1,4 @@
 package userApis;
 
-public class RegisterApiTest {
+public class RegisterUserApiTest {
 }

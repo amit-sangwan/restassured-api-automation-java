@@ -1,4 +1,4 @@
-package baseSetup;
+package base;
 
 import apiLayer.CustomJuiceShopApiClient;
 import config.ConfigManager;

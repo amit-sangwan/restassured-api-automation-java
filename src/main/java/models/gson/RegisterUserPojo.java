@@ -1,10 +1,9 @@
+package models.gson;
 
-        package models;
-
- import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
- public class RegisterUserPojo {
+public class RegisterUserPojo {
     //@SerializedName is a Gson annotation used to bind a JSON key to a Java field,
     //@Expose marks a field for inclusion during serialization and deserialization, but only if the Gson instance is configured to honor it.
     //@JsonProperty("json_key") in jackson library Equivalent of @SerializedName.
@@ -20,7 +19,7 @@ import com.google.gson.annotations.SerializedName;
     private String passwordRepeat;
     @SerializedName("securityQuestion")
     @Expose
-    private SecurityQuestion securityQuestion;
+    private SecurityQuestionPojo securityQuestion;
 
     public String getEmail() {
         return email;
@@ -46,11 +45,11 @@ import com.google.gson.annotations.SerializedName;
         this.passwordRepeat = passwordRepeat;
     }
 
-    public SecurityQuestion getSecurityQuestion() {
+    public SecurityQuestionPojo getSecurityQuestion() {
         return securityQuestion;
     }
 
-    public void setSecurityQuestion(SecurityQuestion securityQuestion) {
+    public void setSecurityQuestion(SecurityQuestionPojo securityQuestion) {
         this.securityQuestion = securityQuestion;
     }
 

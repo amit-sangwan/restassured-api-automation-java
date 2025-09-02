@@ -1,4 +1,4 @@
 package utils;
 
-public class testDataGenerator {
+public class TestDataGenerator {
 }

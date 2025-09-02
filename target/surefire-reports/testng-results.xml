@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[****************************************************]]>
+    </line>
+    <line>
+      <![CDATA[Test Suite Initialized]]>
+    </line>
+    <line>
+      <![CDATA[Environment picked from POM/profile: prod]]>
+    </line>
+    <line>
+      <![CDATA[Base URL: https://custom-juice-shop.onrender.com]]>
+    </line>
+    <line>
+      <![CDATA[Auth Token: your_prod_token]]>
+    </line>
+    <line>
+      <![CDATA[Connect Timeout: 5000]]>
+    </line>
+    <line>
+      <![CDATA[Read Timeout: 10000]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************]]>
+    </line>
+    <line>
+      <![CDATA[****** Tests on Prod may take time , machines takes time to start if went to sleep ******]]>
+    </line>
+    <line>
+      <![CDATA[****************************************************]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>  Test Running: loginTest]]>
+    </line>
+    <line>
+      <![CDATA[>>>>>  Test Running: getAllProductTest]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-09-02T17:33:30 IST" name="Surefire suite" finished-at="2025-09-02T17:33:32 IST" duration-ms="2899">
+    <groups>
+    </groups>
+    <test started-at="2025-09-02T17:33:30 IST" name="Surefire test" finished-at="2025-09-02T17:33:32 IST" duration-ms="2899">
+      <class name="productApis.ListProductApiTest">
+        <test-method is-config="true" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:productApis.ListProductApiTest@25a65b77]" started-at="2025-09-02T17:33:32 IST" name="beforemethod" finished-at="2025-09-02T17:33:32 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ListProductApiTest.getAllProductTest()[pri:0, instance:productApis.ListProductApiTest@25a65b77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>  Test Running: getAllProductTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="getAllProductTest()[pri:0, instance:productApis.ListProductApiTest@25a65b77]" started-at="2025-09-02T17:33:32 IST" name="getAllProductTest" finished-at="2025-09-02T17:33:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllProductTest -->
+      </class> <!-- productApis.ListProductApiTest -->
+      <class name="userApis.LoginUserApiTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:userApis.LoginUserApiTest@20d3d15a]" started-at="2025-09-02T17:33:30 IST" name="beforeSuite" finished-at="2025-09-02T17:33:30 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[****************************************************]]>
+            </line>
+            <line>
+              <![CDATA[Test Suite Initialized]]>
+            </line>
+            <line>
+              <![CDATA[Environment picked from POM/profile: prod]]>
+            </line>
+            <line>
+              <![CDATA[Base URL: https://custom-juice-shop.onrender.com]]>
+            </line>
+            <line>
+              <![CDATA[Auth Token: your_prod_token]]>
+            </line>
+            <line>
+              <![CDATA[Connect Timeout: 5000]]>
+            </line>
+            <line>
+              <![CDATA[Read Timeout: 10000]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************]]>
+            </line>
+            <line>
+              <![CDATA[****** Tests on Prod may take time , machines takes time to start if went to sleep ******]]>
+            </line>
+            <line>
+              <![CDATA[****************************************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforemethod(org.testng.ITestResult)[pri:0, instance:userApis.LoginUserApiTest@20d3d15a]" started-at="2025-09-02T17:33:30 IST" name="beforemethod" finished-at="2025-09-02T17:33:30 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginUserApiTest.loginTest()[pri:0, instance:userApis.LoginUserApiTest@20d3d15a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[>>>>>  Test Running: loginTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="loginTest()[pri:0, instance:userApis.LoginUserApiTest@20d3d15a]" started-at="2025-09-02T17:33:30 IST" name="loginTest" finished-at="2025-09-02T17:33:32 IST" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- userApis.LoginUserApiTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

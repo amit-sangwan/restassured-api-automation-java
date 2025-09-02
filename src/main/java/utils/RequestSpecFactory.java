@@ -1,4 +1,4 @@
-package specs;
+package utils;
 
 import config.ConfigManager;
 import io.restassured.builder.RequestSpecBuilder;
@@ -12,7 +12,7 @@ public class RequestSpecFactory {
     // Basic request spec without authentication
     public static RequestSpecification getRequestSpec() {
         return new RequestSpecBuilder()
-                .setBaseUri(ConfigManager.get("baseUrl"))
+                .setBaseUri(ConfigManager.getBaseUrl())
                 .setContentType(ContentType.JSON)
                 .build();
     }
@@ -20,7 +20,7 @@ public class RequestSpecFactory {
     // Request spec with Bearer token authentication
     public static RequestSpecification getAuthenticatedRequestSpec(String token) {
         return new RequestSpecBuilder()
-                .setBaseUri(ConfigManager.get("baseUrl"))
+                .setBaseUri(ConfigManager.getBaseUrl())
                 .setContentType(ContentType.JSON)
                 .addHeader("Authorization", "Bearer " + token)
                 .build();

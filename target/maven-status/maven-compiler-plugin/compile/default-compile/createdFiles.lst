@@ -1,0 +1,13 @@
+utils/RequestSpecFactory.class
+models/jackson/SecurityQuestionsPojo.class
+models/gson/ListProductPojo.class
+models/jackson/FeedbackPojo.class
+models/jackson/OrdersPojo.class
+models/gson/SecurityQuestionPojo.class
+models/gson/BasketItemPojo.class
+config/ConfigManager.class
+utils/JsonUtils.class
+models/gson/LoginUserPojo.class
+utils/TestDataGenerator.class
+apiLayer/CustomJuiceShopApiClient.class
+models/gson/RegisterUserPojo.class

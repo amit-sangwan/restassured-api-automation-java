@@ -1,0 +1,10 @@
+{
+  "email": "testuser@example.com",
+  "password": "12345",
+  "passwordRepeat": "12345",
+  "securityQuestion": {
+    "id": 1,
+    "question": "Your eldest sibling's middle name?",
+    "answer": "dummy"
+  }
+}

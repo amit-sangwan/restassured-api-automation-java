@@ -1,4 +1,4 @@
-package clients;
+package apiLayer;
 
 import io.restassured.response.Response;
 import models.gson.LoginUserPojo;

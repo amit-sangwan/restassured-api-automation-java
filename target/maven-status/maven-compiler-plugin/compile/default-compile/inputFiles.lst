@@ -1,0 +1,13 @@
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/gson/RegisterUserPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/jackson/OrdersPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/apiLayer/CustomJuiceShopApiClient.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/jackson/FeedbackPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/utils/TestDataGenerator.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/gson/ListProductPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/utils/RequestSpecFactory.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/jackson/SecurityQuestionsPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/config/ConfigManager.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/utils/JsonUtils.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/gson/BasketItemPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/gson/LoginUserPojo.java
+/Users/amittsangwan/workspace/gitWorkspace/restassured-api-automation-java/src/main/java/models/gson/SecurityQuestionPojo.java

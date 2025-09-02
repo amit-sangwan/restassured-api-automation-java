@@ -1,0 +1,8 @@
+userApis/LoginUserApiTest.class
+productApis/ListProductApiTest.class
+basketApis/BasketItemApiTest.class
+securityQuestions/SecurityQuestions.class
+userApis/RegisterUserApiTest.class
+feedbackApis/FeedbackApiTest.class
+orderApis/OrderApiTest.class
+base/BaseTest.class

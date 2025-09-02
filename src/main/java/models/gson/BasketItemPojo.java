@@ -1,4 +1,5 @@
-package models;
+package models.gson;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
